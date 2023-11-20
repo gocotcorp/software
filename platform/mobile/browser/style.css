@@ -1,0 +1,120 @@
+body {
+  font-family: monospace, arial;
+  margin: 0px;
+  user-zoom: none;
+  user-select: none;
+}
+.nav{
+  
+  border-bottom: 1px solid black;
+  box-shadow: 5px 5px 10px black;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+  align-items: center;
+  user-select: none;
+  padding-left: 10px;
+ display: flex;
+ background: white;
+  
+}
+.nav button{
+  
+  background: transparent;
+  border: 0px;
+  text-align: center;
+  margin-left: 8%;
+  transition: 0.3s;
+  
+}
+.nav button:hover{
+  cursor: pointer;
+  color: dodgerblue;
+}
+.nav button:active {
+  cursor: pointer;
+  color: dodgerblue;
+  border: 2px dotted dodgerblue;
+}
+.nav button:focus {
+  cursor: pointer;
+  color: dodgerblue;
+  border: 2px dotted dodgerblue;
+}
+
+
+.nav-btn-clicked{
+  background: transparent;
+  cursor: default;
+  color: dodgerblue;
+  border: 2px dotted dodgerblue;
+  text-align: center;
+  margin-left: 8%;
+  transition: 0.3s;
+}
+
+.f1{
+  font-family: lovelo;
+}
+.f2{
+  font-family: gulft;
+}
+.def{
+  margin: 10px;
+}
+h1{
+  font-family: lovelo;
+}
+p{
+  
+  word-spacing: 8px;
+  line-height: 20px;
+  
+}
+
+::selection{
+  
+  background: navy;
+  color: green;
+  opacity: 0.6;
+  
+}
+
+input{
+  
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 300px;
+  font-family: lovelo;
+  outline: none;
+  
+}
+button{
+  
+  background: silver;
+  height: 50px;
+  width: 50px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 3000px;
+  
+}
+button:hover{
+  background: gray;
+}
+
+button:active {
+  background: gray;
+}
+button:focus {
+  background: gray;
+}
+#pad img{
+  margin-left: 10px;
+}
+#pad img:hover{
+  margin-left: 10px;
+  opacity: 0.5;
+}
